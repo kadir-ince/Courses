@@ -11,6 +11,10 @@
 		5437FB60263C348200445EC5 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437FB5E263C348200445EC5 /* CourseItem.swift */; };
 		5437FB64263C35F600445EC5 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437FB63263C35F600445EC5 /* CourseList.swift */; };
 		5437FB65263C35F600445EC5 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437FB63263C35F600445EC5 /* CourseList.swift */; };
+		5437FB67263C5DC400445EC5 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437FB66263C5DC400445EC5 /* Course.swift */; };
+		5437FB68263C5DC400445EC5 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437FB66263C5DC400445EC5 /* Course.swift */; };
+		5437FB6B263C6ABB00445EC5 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437FB6A263C6ABB00445EC5 /* CloseButton.swift */; };
+		5437FB6C263C6ABB00445EC5 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437FB6A263C6ABB00445EC5 /* CloseButton.swift */; };
 		545C9E76263C186F0085C3FE /* CoursesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C9E63263C186D0085C3FE /* CoursesApp.swift */; };
 		545C9E77263C186F0085C3FE /* CoursesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C9E63263C186D0085C3FE /* CoursesApp.swift */; };
 		545C9E78263C186F0085C3FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C9E64263C186D0085C3FE /* ContentView.swift */; };
@@ -28,6 +32,8 @@
 /* Begin PBXFileReference section */
 		5437FB5E263C348200445EC5 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		5437FB63263C35F600445EC5 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		5437FB66263C5DC400445EC5 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		5437FB6A263C6ABB00445EC5 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		545C9E63263C186D0085C3FE /* CoursesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesApp.swift; sourceTree = "<group>"; };
 		545C9E64263C186D0085C3FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		545C9E65263C186E0085C3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +83,14 @@
 			path = Items;
 			sourceTree = "<group>";
 		};
+		5437FB69263C625D00445EC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5437FB66263C5DC400445EC5 /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		545C9E5D263C186C0085C3FE = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +106,10 @@
 			children = (
 				545C9E63263C186D0085C3FE /* CoursesApp.swift */,
 				5437FB61263C358F00445EC5 /* Navigation */,
+				5437FB69263C625D00445EC5 /* Model */,
 				5437FB62263C35A500445EC5 /* Items */,
 				545C9E87263C23400085C3FE /* CoursesView.swift */,
+				5437FB6A263C6ABB00445EC5 /* CloseButton.swift */,
 				5437FB63263C35F600445EC5 /* CourseList.swift */,
 				545C9E65263C186E0085C3FE /* Assets.xcassets */,
 			);
@@ -223,8 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5437FB67263C5DC400445EC5 /* Course.swift in Sources */,
 				545C9E8B263C248F0085C3FE /* Sidebar.swift in Sources */,
 				5437FB5F263C348200445EC5 /* CourseItem.swift in Sources */,
+				5437FB6B263C6ABB00445EC5 /* CloseButton.swift in Sources */,
 				545C9E78263C186F0085C3FE /* ContentView.swift in Sources */,
 				545C9E85263C1FD10085C3FE /* CourseRow.swift in Sources */,
 				545C9E76263C186F0085C3FE /* CoursesApp.swift in Sources */,
@@ -237,8 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5437FB68263C5DC400445EC5 /* Course.swift in Sources */,
 				545C9E8C263C248F0085C3FE /* Sidebar.swift in Sources */,
 				5437FB60263C348200445EC5 /* CourseItem.swift in Sources */,
+				5437FB6C263C6ABB00445EC5 /* CloseButton.swift in Sources */,
 				545C9E79263C186F0085C3FE /* ContentView.swift in Sources */,
 				545C9E86263C1FD10085C3FE /* CourseRow.swift in Sources */,
 				545C9E77263C186F0085C3FE /* CoursesApp.swift in Sources */,
